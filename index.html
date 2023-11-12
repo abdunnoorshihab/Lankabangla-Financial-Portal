@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lankabangla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!--Login-->
+
+        <div class="row justify-content-center wrapper p-4" id="login-box">
+            <div class="col-lg-10 my-auto">
+                <div class="card-group myShadow">
+                    <div class="card justify-content-center rounded-start p-4" style="flex-grow: 1.4;">
+                        <h1 class="text-center fw-bold text-success">Sign in</h1>
+                        <hr class="my-3">
+
+                        <form action="#" method="post" class="px-3" id="login-form">
+
+                            <div id="loginAlert"></div>
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <input type="email" name="email" id="email" class="form-control rounded-0"
+                                    placeholder="Enter your Email" required>
+                            </div>
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-key"></i>
+                                    </div>
+                                </div>
+                                <input type="password" name="password" id="password" class="form-control rounded-0"
+                                    placeholder="Enter your password" required>
+                            </div>
+
+                            <div class="form-group py-2">
+                                <div class="custom-control custom-checkbox float-start">
+                                    <input type="checkbox" name="rem" class="custom-control-input" id="customCheck">
+                                    <label for="customCheck" class="custom-control-label"> Remember me</label>
+                                </div>
+                                <div class="forgot float-end">
+                                    <a href="#" id="forgot-link">Forgot Password?</a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Sign In" id="login-btn"
+                                    class="btn btn-success btn-lg col-12 myBtn">
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="card justify-content-center rounded-end myColor p-4">
+                        <img class="img-fluid p-3 ms-5" src="assets/imgs/Logo.png" alt="">
+                        <h1 class="text-center fw-bold">Embrace volatility,<br>taste prosperity</h1>
+                        <hr class="my-3 bg-light myHr">
+                        <p class="text-center fw-bolder text-light lead">Make your money work for you, invest today for
+                            a wealthier tomorrow.</p>
+                        <button class="btn btn-outline-light btn-lg align-self-center fw-bolder myLinkBtn"
+                            id="register-link">Sign Up</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--//login-->
+
+        <!--Signup-->
+
+        <div class="row justify-content-center wrapper p-4" id="register-box" style="display: none;">
+            <div class="col-lg-10 my-auto">
+                <div class="card-group myShadow">
+
+                    <div class="card justify-content-center rounded-end myColor p-4">
+                        <img class="img-fluid p-3 ms-5" src="assets/imgs/Logo.png" alt="">
+                        <h2 class="text-center fw-bold">Don't wait for the opportunity,<br>create it on the stock
+                            exchange.</h2>
+                        <hr class="my-3 bg-light myHr">
+                        <p class="text-center fw-bolder text-light lead">To keep connect with us</p>
+                        <button class="btn btn-outline-light btn-lg align-self-center fw-bolder myLinkBtn"
+                            id="login-link">Sign IN</button>
+                    </div>
+
+                    <div class="card justify-content-center rounded-start p-4" style="flex-grow: 1.4;">
+                        <h1 class="text-center fw-bold text-success">Create Account</h1>
+                        <hr class="my-3">
+
+                        <form action="action.php" method="post" class="px-3" id="register-form">
+
+                            <div id="regAlert"></div>
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                                <input type="text" name="name" id="name" class="form-control rounded-0"
+                                    placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <input type="email" name="email" id="remail" class="form-control rounded-0"
+                                    placeholder="Enter your Email" required>
+                            </div>
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-key"></i>
+                                    </div>
+                                </div>
+                                <input type="password" name="password" id="rpassword" class="form-control rounded-0"
+                                    placeholder="Enter your password" required minlength="8">
+                            </div>
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-key"></i>
+                                    </div>
+                                </div>
+                                <input type="password" name="password" id="cpassword" class="form-control rounded-0"
+                                    placeholder="Confirm your password" required minlength="8">
+                            </div>
+
+                            <div class="form-group">
+                                <div class="text-danger font-weight-bold" id="passError"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Sign Up" id="register-btn"
+                                    class="btn btn-success btn-lg col-12 myBtn">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--//Signup-->
+
+        <!--Forgot Password-->
+
+        <div class="row justify-content-center wrapper p-4" id="forgot-box" style="display: none;">
+            <div class="col-lg-10 my-auto">
+                <div class="card-group myShadow">
+
+                    <div class="card justify-content-center rounded-start myColor p-4">
+                        <img class="img-fluid p-3 ms-5" src="assets/imgs/Logo.png" alt="">
+                        <h1 class="text-center fw-bold">Reset Password</h1>
+                        <hr class="my-3 bg-light myHr">
+                        <button class="btn btn-outline-light btn-lg align-self-center fw-bolder myLinkBtn"
+                            id="back-link">Back</button>
+                    </div>
+
+                    <div class="card justify-content-center rounded-end p-4" style="flex-grow: 1.4;">
+                        <h1 class="text-center fw-bold text-success">Forgot Password?</h1>
+                        <hr class="my-3">
+                        <p class="lead text-center text-secondary">To reset your password,enter the registered e-mail &
+                            we will send intructions on your e-mail </p>
+
+                        <form action="#" method="post" class="px-3" id="forgot-form">
+
+                            <div class="input-group input-group-lg form-group py-2">
+                                <div class="input-group-lg">
+                                    <div class="input-group-text rounded-0 p-3">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <input type="email" name="email" id="femail" class="form-control rounded-0"
+                                    placeholder="Enter your Email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Reset Password" id="forgot-btn"
+                                    class="btn btn-success btn-lg col-12 myBtn">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--//Forgot Password-->
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#register-link").click(function () {
+                $("#login-box").hide();
+                $("#register-box").show();
+            });
+
+            $("#login-link").click(function(){
+                $("#login-box").show();
+                $("#register-box").hide();
+            });
+
+            $("#forgot-link").click(function(){
+                $("#login-box").hide();
+                $("#forgot-box").show();
+            });
+
+            $("#back-link").click(function(){
+                $("#login-box").show();
+                $("#forgot-box").hide();
+            });
+            
+            //Register Ajax Request
+            $("#register-btn").click(function(e){
+                if($("#register-form")[0].checkValidity()){
+                    e.preventDefault();
+                    $("#register-btn").val('Please Wait....');
+                    if($("#rpassword").val() != $("#cpassword").val()){
+                        $("#passError").text('* Password did not matched! ');
+                        $("#register-btn").val('Sign up');
+                    }
+                    else{
+                        $("#passError").text('');
+                        $.ajax({
+                            url: 'assets/php/action.php',
+                            method: 'post',
+                            data: $("register-form").serialize()+'&action=register',
+                            success:function(response){
+                                $("#register-btn").val('Sign up');
+                                if(response == 'register'){
+                                    window.location = 'home.php';
+                                }
+                                else{
+                                    $("#regAlert").html(response);
+                                }
+                            }
+                        })
+                        
+                    }
+                }
+            });
+
+            //Login Ajax Request
+            $("#login-btn").click(function(e){
+                if($("#login-form")[0].checkValidity()){
+                    e.preventDefault();
+
+                    $("#login-btn").val('Please Wait....');
+                    $.ajax({
+                            url: 'assets/php/action.php',
+                            method: 'post',
+                            data: $("login-form").serialize()+'&action=login',
+                            success:function(response){
+                                $("#login-btn").val('Sign In');
+                                if(response == 'login'){
+                                    window.location = 'home.php';
+                                }
+                                else{
+                                    $("#loginAlert").html(response);
+                                }
+                            }
+                    });   
+                    
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Applicant From</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="images/LankaBangla-Finance-Logo.png">
+</head>
+
+
+<body class="">
+ 
+  
+  <div class="container-fluid color-body">
+    
+    <div class="row-12 text-md-right px-5 ">
+      <a  href="dashboard.html">
+        <button  type="button" class="btn btn-success p-3 mt-2 ">Home</button>
+      </a>
+      
+  </div>
+    <div class="container  ">
+      <div class="row ">
+        <div class="col-md-6 mx-auto cf-container color-form ">
+          <form action="" method="post" class="px-4">
+            <div class="cf-cover">
+              <div class="session-title row ">
+                <h2> BO Account Open Form</h2>
+                <p class="text-danger">Red mark text is mandatory field! </p>
+                <h3 class="bg-success text-white p-1 border border-dark rounded   ">APPLICANT BASIC INFORMATION</h3>
+
+              </div>
+              <hr>
+              <p class=" text-md text-success">Please tick whichever is applicable</p>
+
+
+
+              <div class="form-row row p-2">
+                <div class="col-sm-4">
+                  <h6>Operation Type: </h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Individual
+                    </label>
+                  </div>
+                  <div class="form-check"  onclick="myFunction()">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Joint Holder
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <h6>Account Type: </h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Direct Trading with no Margin
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <h6>Client Type: </h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Regular
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Clearing
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+              <p class="text-md text-success">CHOOSE PREFERRED BRANCH</p>
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <span class=""> Preferred Branch</span>
+                </div>
+                <div class="">
+                  <select class="form-select form-select-sm  px-4 " aria-label=".form-select-sm example">
+                    <option selected>Online</option>
+                    <option value="1">Principal</option>
+                    <option value="2">Agrabad</option>
+                    <option value="3">Khatungonj</option>
+                    <option value="4">Sylhet</option>
+                    <option value="5">Banani</option>
+                    <option value="6">Dhanmondi</option>
+                    <option value="7">Nasirabad</option>
+                    <option value="8">Comilla</option>
+                    <option value="9">Narayangonj</option>
+                    <option value="10">Uttara</option>
+                    <option value="11">A.A. Bhaban Booth</option>
+                    <option value="12">Corporate</option>
+                    <option value="13">Barisal</option>
+                    <option value="14">Feni</option>
+                    <option value="15">Mirpur</option>
+                    <option value="16">Bashundhara</option>
+                    <option value="17">Gulshan</option>
+                    <option value="18">Jubilee Road</option>
+                    <option value="19">Khulna</option>
+                    <option value="20">Dhanmondi-27</option>
+                    <option value="21">Jessore</option>
+                    <option value="27">Hathazari</option>
+                    <option value="28">Tangail</option>
+                    <option value="29">Chawkbazar</option>
+                    <option value="30">Bogra</option>
+                    <option value="31">Gazipur</option>
+                    <option value="32">Rajshahi</option>
+                    <option value="33">Elephant Road</option>
+                    <option value="34">Bangshal</option>
+                    <option value="35">Kushtia</option>
+                    <option value="36">Mirpur-1</option>
+                    <option value="37">Bahaddar Hat</option>
+                    <option value="38">Kafco</option>
+                    <option value="39">Hazari Golli</option>
+                    <option value="40">Madaripur</option>
+                    <option value="41">Narsingdi</option>
+                  </select>
+                </div>
+              </div>
+              <hr>
+              <p class="text-success">FIRST APPLICANT INFORMATION</p>
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <span class=""> Title</span>
+                </div>
+                <div class="">
+                  <select class="form-select form-select-sm p-1" aria-label=".form-select-sm example">
+                    <option selected="selected" value="MR">Mr.</option>
+                    <option value="MS">Ms.</option>
+                    <option value="DR">Dr.</option>
+                    <option value="EN">Engr.</option>
+                    <option value="AD">Adv.</option>
+                    <option value="CA">Capt.</option>
+                  </select>
+                </div>
+              </div>
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6 text-danger mt-4 pt-1">
+                  <label for="">Account Holder</label>
+                  <input type="text" required="" placeholder="Enter Account Holder Name" class="form-control">
+                </div>
+                <div class="col-md-6 ">
+                  <div class="custom-control custom-switch mx-3 ">
+                    <input type="checkbox" class="custom-control-input  " id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Is Father</label>
+                  </div>
+                  <label for="" class="text-danger w-100 ">Father's/Husband's Name</label>
+                  <input type="text" placeholder="Enter Father's/Husband's Name" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-row row">
+                <div class="col-md-6 text-danger">
+                  <label for="">Mother Name</label>
+                  <input type="text" required="" placeholder="Enter Mother's Name" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Spouse</label>
+                  <input type="text" placeholder="Enter Spouse's Name" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6 text-danger">
+                  <label for="">Mobile Number</label>
+                  <input type="text" required="" placeholder="Enter Mobile Number" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Phone Number </label>
+                  <input type="text" placeholder="Enter Phone Number" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Fax</label>
+                  <input type="text" required="" placeholder="Fax" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Email </label>
+                  <input type="text" placeholder="Email123@gmail.com" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">e-tin</label>
+                  <input type="text" required="" placeholder="e-tin" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">NID </label>
+                  <input type="text" placeholder="3919693619111" class="form-control">
+                </div>
+              </div>
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Birth Registration</label>
+                  <input type="text" required="" placeholder="Birth Registration" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Occupation </label>
+                  <div class="">
+                    <select class="form-select form-select-lg w-100 px-2 py-2" aria-label=".form-select-lg example">
+                      <option value="00">-Select-</option>
+                      <option value="a">Service Holder</option>
+                      <option value="1">Engineer</option>
+                      <option value="2">Architecture</option>
+                      <option value="3">Software Programmer</option>
+                      <option value="4">Mechanical Engineer</option>
+                      <option value="5">Others</option>
+                      <option value="6">Housewife</option>
+                      <option value="7">Business</option>
+                      <option value="8">Teaching</option>
+                      <option value="9">Doctor</option>
+                      <option value="10">Nursing</option>
+                      <option value="11">lawyer</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-row row text-danger">
+                <div class="col-md-6">
+                  <label for="">Date Of Birth </label>
+                  <div class="input-group date">
+                    <input type="text" class="form-control" id="datepicker" placeholder="MM/DD/YYYY">
+                  </div>
+
+                </div>
+                <div class="col-md-6 ">
+                  <label for="">Gender </label>
+                  <div class="">
+                    <select class="form-select form-select-lg w-100 px-2 py-2 " aria-label=".form-select-lg example">
+                      <option value="00">-Select-</option>
+                      <option value="a">Male</option>
+                      <option value="1">Female</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Nationality</label>
+                  <div class=" ">
+                    <select class="form-select form-select-lg py-2 px-2 w-100 " aria-label=".form-select-sm example">
+
+                      <option value="a">Bangladeshi</option>
+                      <option value="1">Others</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="">Residency</label>
+                  <div class=" ">
+                    <select class="form-select form-select-lg py-2 px-2 w-100 " aria-label=".form-select-sm example">
+
+                      <option value="a">Resident</option>
+                      <option value="1">Non Resident</option>
+
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <hr class="my-4">
+              <p class="text-success">PRESENT ADDRESS DETAILS</p>
+              <div class="form-row row" >
+                <div class="col-md-12 text-danger">
+                  <label for="">Present Address</label>
+                  <textarea placeholder="" rows="3" class="form-control" id="pres-address"></textarea>
+                </div>
+              </div>
+
+
+
+              <div class="form-row row">
+
+                <div class="col-md-6 text-danger">
+                  <label for="">Country </label>
+                  <div class="">
+                    <select class="form-select form-select-lg w-100 px-2 py-2" aria-label=".form-select-lg example" id="select-box1">
+                      <option value="0">---Select---</option>
+                      <option value="2">Bangladesh</option>
+                      <option value="3">Albania</option>
+                      <option value="4">Algeria</option>
+                      <option value="5">Andorra</option>
+                      <option value="6">Angola</option>
+                      <option value="7">Antigua and Barbuda</option>
+                      <option value="8">Argentina</option>
+                      <option value="9">Armenia</option>
+                      <option value="10">Aruba</option>
+                      <option value="11">Australia</option>
+                      <option value="12">Austria</option>
+                      <option value="13">Azerbaijan</option>
+                      <option value="14">Bahamas, The</option>
+                      <option value="15">Bahrain</option>
+                      <option value="16">Afghanistan</option>
+                      <option value="17">Barbados</option>
+                      <option value="18">Belarus</option>
+                      <option value="19">Belgium</option>
+                      <option value="20">Belize</option>
+                      <option value="21">Benin</option>
+                      <option value="22">Bhutan</option>
+                      <option value="23">Bolivia</option>
+                      <option value="24">Bosnia and Herzegovina</option>
+                      <option value="25">Botswana</option>
+                      <option value="26">Brazil</option>
+                      <option value="27">Brunei&#160;</option>
+                      <option value="28">Bulgaria</option>
+                      <option value="29">Burkina Faso</option>
+                      <option value="30">Burma</option>
+                      <option value="31">Burundi</option>
+                      <option value="32">Cambodia</option>
+                      <option value="33">Cameroon</option>
+                      <option value="34">Canada</option>
+                      <option value="35">Cape Verde</option>
+                      <option value="36">Central African Republic</option>
+                      <option value="37">Chad</option>
+                      <option value="38">Chile</option>
+                      <option value="39">China</option>
+                      <option value="40">Colombia</option>
+                      <option value="41">Comoros</option>
+                      <option value="42">Congo, Democratic Republic of the</option>
+                      <option value="43">Congo, Republic of the</option>
+                      <option value="44">Costa Rica</option>
+                      <option value="45">Cote d&#39;Ivoire</option>
+                      <option value="46">Croatia</option>
+                      <option value="47">Cuba</option>
+                      <option value="48">Curacao</option>
+                      <option value="49">Cyprus</option>
+                      <option value="50">Czech Republic</option>
+                      <option value="51">Denmark</option>
+                      <option value="52">Djibouti</option>
+                      <option value="53">Dominica</option>
+                      <option value="54">Dominican Republic</option>
+                      <option value="55">Ecuador</option>
+                      <option value="56">Egypt</option>
+                      <option value="57">El Salvador</option>
+                      <option value="58">Equatorial Guinea</option>
+                      <option value="59">Eritrea</option>
+                      <option value="60">Estonia</option>
+                      <option value="61">Ethiopia</option>
+                      <option value="62">Fiji</option>
+                      <option value="63">Finland</option>
+                      <option value="64">France</option>
+                      <option value="65">Gabon</option>
+                      <option value="66">Gambia, The</option>
+                      <option value="67">Georgia</option>
+                      <option value="68">Germany</option>
+                      <option value="69">Ghana</option>
+                      <option value="70">Greece</option>
+                      <option value="71">Grenada</option>
+                      <option value="72">Guatemala</option>
+                      <option value="73">Guinea</option>
+                      <option value="74">Guinea-Bissau</option>
+                      <option value="75">Guyana</option>
+                      <option value="76">Haiti</option>
+                      <option value="77">Holy See</option>
+                      <option value="78">Honduras</option>
+                      <option value="79">Hong Kong</option>
+                      <option value="80">Hungary</option>
+                      <option value="81">Iceland</option>
+                      <option value="82">India</option>
+                      <option value="83">Indonesia</option>
+                      <option value="84">Iran</option>
+                      <option value="85">Iraq</option>
+                      <option value="86">Ireland</option>
+                      <option value="87">Israel</option>
+                      <option value="88">Italy</option>
+                      <option value="89">Jamaica</option>
+                      <option value="90">Japan</option>
+                      <option value="91">Jordan</option>
+                      <option value="92">Kazakhstan</option>
+                      <option value="93">Kenya</option>
+                      <option value="94">Kiribati</option>
+                      <option value="95">Korea, North</option>
+                      <option value="96">Korea, South</option>
+                      <option value="97">Kosovo</option>
+                      <option value="98">Kuwait</option>
+                      <option value="99">Kyrgyzstan</option>
+                      <option value="100">Laos</option>
+                      <option value="101">Latvia</option>
+                      <option value="102">Lebanon</option>
+                      <option value="103">Lesotho</option>
+                      <option value="104">Liberia</option>
+                      <option value="105">Libya</option>
+                      <option value="106">Liechtenstein</option>
+                      <option value="107">Lithuania</option>
+                      <option value="108">Luxembourg</option>
+                      <option value="109">United Kingdom</option>
+                      <option value="110">United States of America</option>
+                      <option value="202">Qatar</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6 text-danger">
+                  <label for="">City</label>
+                  <input type="text" required="" placeholder="city" class="form-control" id="city-field1">
+                </div>
+              </div>
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6 text-danger">
+                  <label for="">PostCode</label>
+                  <input type="text" required="" placeholder="Enter PostCode" class="form-control" id="post-code1">
+                </div>
+                <div class="col-md-6 text-danger">
+                  <label for="">State/Division </label>
+                  <input type="text" placeholder="Enter State/Division" class="form-control" id="Division1">
+                </div>
+              </div>
+
+              <hr class="my-4">
+              <p class="text-success">PERMANENT ADDRESS DETAILS</p>
+
+
+
+
+  <div class="form-check">
+    <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="click-fillup" >
+    <label class="form-check-label " >
+      Same as Present
+    </label>
+  </div>
+              
+
+              <div class="form-row row" >
+                <div class="col-md-12">
+                  <label for=""> Address</label>
+                  <textarea placeholder="" rows="3" class="form-control" id="per-address"></textarea>
+                </div>
+              </div>
+
+
+
+              <div class="form-row row-sm-6 ">
+
+                <div class="col-sm-6  ">
+
+                  <div class="">
+                    <label for="">Country </label>
+                    <select class="form-select form-select-md py-2 w-100 " aria-label=".form-select-md example" id="select-box2">
+                      <option value="0">---Select---</option>
+                      <option value="2">Bangladesh</option>
+                      <option value="3">Albania</option>
+                      <option value="4">Algeria</option>
+                      <option value="5">Andorra</option>
+                      <option value="6">Angola</option>
+                      <option value="7">Antigua and Barbuda</option>
+                      <option value="8">Argentina</option>
+                      <option value="9">Armenia</option>
+                      <option value="10">Aruba</option>
+                      <option value="11">Australia</option>
+                      <option value="12">Austria</option>
+                      <option value="13">Azerbaijan</option>
+                      <option value="14">Bahamas, The</option>
+                      <option value="15">Bahrain</option>
+                      <option value="16">Afghanistan</option>
+                      <option value="17">Barbados</option>
+                      <option value="18">Belarus</option>
+                      <option value="19">Belgium</option>
+                      <option value="20">Belize</option>
+                      <option value="21">Benin</option>
+                      <option value="22">Bhutan</option>
+                      <option value="23">Bolivia</option>
+                      <option value="24">Bosnia and Herzegovina</option>
+                      <option value="25">Botswana</option>
+                      <option value="26">Brazil</option>
+                      <option value="27">Brunei&#160;</option>
+                      <option value="28">Bulgaria</option>
+                      <option value="29">Burkina Faso</option>
+                      <option value="30">Burma</option>
+                      <option value="31">Burundi</option>
+                      <option value="32">Cambodia</option>
+                      <option value="33">Cameroon</option>
+                      <option value="34">Canada</option>
+                      <option value="35">Cape Verde</option>
+                      <option value="36">Central African Republic</option>
+                      <option value="37">Chad</option>
+                      <option value="38">Chile</option>
+                      <option value="39">China</option>
+                      <option value="40">Colombia</option>
+                      <option value="41">Comoros</option>
+                      <option value="42">Congo, Democratic Republic of the</option>
+                      <option value="43">Congo, Republic of the</option>
+                      <option value="44">Costa Rica</option>
+                      <option value="45">Cote d&#39;Ivoire</option>
+                      <option value="46">Croatia</option>
+                      <option value="47">Cuba</option>
+                      <option value="48">Curacao</option>
+                      <option value="49">Cyprus</option>
+                      <option value="50">Czech Republic</option>
+                      <option value="51">Denmark</option>
+                      <option value="52">Djibouti</option>
+                      <option value="53">Dominica</option>
+                      <option value="54">Dominican Republic</option>
+                      <option value="55">Ecuador</option>
+                      <option value="56">Egypt</option>
+                      <option value="57">El Salvador</option>
+                      <option value="58">Equatorial Guinea</option>
+                      <option value="59">Eritrea</option>
+                      <option value="60">Estonia</option>
+                      <option value="61">Ethiopia</option>
+                      <option value="62">Fiji</option>
+                      <option value="63">Finland</option>
+                      <option value="64">France</option>
+                      <option value="65">Gabon</option>
+                      <option value="66">Gambia, The</option>
+                      <option value="67">Georgia</option>
+                      <option value="68">Germany</option>
+                      <option value="69">Ghana</option>
+                      <option value="70">Greece</option>
+                      <option value="71">Grenada</option>
+                      <option value="72">Guatemala</option>
+                      <option value="73">Guinea</option>
+                      <option value="74">Guinea-Bissau</option>
+                      <option value="75">Guyana</option>
+                      <option value="76">Haiti</option>
+                      <option value="77">Holy See</option>
+                      <option value="78">Honduras</option>
+                      <option value="79">Hong Kong</option>
+                      <option value="80">Hungary</option>
+                      <option value="81">Iceland</option>
+                      <option value="82">India</option>
+                      <option value="83">Indonesia</option>
+                      <option value="84">Iran</option>
+                      <option value="85">Iraq</option>
+                      <option value="86">Ireland</option>
+                      <option value="87">Israel</option>
+                      <option value="88">Italy</option>
+                      <option value="89">Jamaica</option>
+                      <option value="90">Japan</option>
+                      <option value="91">Jordan</option>
+                      <option value="92">Kazakhstan</option>
+                      <option value="93">Kenya</option>
+                      <option value="94">Kiribati</option>
+                      <option value="95">Korea, North</option>
+                      <option value="96">Korea, South</option>
+                      <option value="97">Kosovo</option>
+                      <option value="98">Kuwait</option>
+                      <option value="99">Kyrgyzstan</option>
+                      <option value="100">Laos</option>
+                      <option value="101">Latvia</option>
+                      <option value="102">Lebanon</option>
+                      <option value="103">Lesotho</option>
+                      <option value="104">Liberia</option>
+                      <option value="105">Libya</option>
+                      <option value="106">Liechtenstein</option>
+                      <option value="107">Lithuania</option>
+                      <option value="108">Luxembourg</option>
+                      <option value="109">United Kingdom</option>
+                      <option value="110">United States of America</option>
+                      <option value="202">Qatar</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6 " >
+                  <label for="">City</label>
+                  <input type="text" required="" placeholder="Enter city" class="form-control" id="city-field2">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">PostCode</label>
+                  <input type="text" required="" placeholder="Enter PostCode" class="form-control" id="post-code2">
+                </div>
+                <div class="col-md-6">
+                  <label for="">State/Division </label>
+                  <input type="text" placeholder="Enter State/Division" class="form-control" id="Division2">
+                </div>
+              </div>
+
+              <hr class="my-4">
+
+              <p class="text-success">BANK DETAILS </p>
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6 text-danger">
+                  <label for="number" class="col-form ">Routing No</label>
+                  <input type="text" required="" placeholder="" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="number" class="col-form ">Bank</label>
+                  <div class="">
+                    <select class="form-select form-select-md w-100 py-2 " aria-label=".form-select-md example">
+                      <option value="0" selected disabled>---Select---</option>
+
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="number" class="col-form ">Branch</label>
+                  <div class="">
+                    <select class="form-select form-select-md w-100 py-2 " aria-label=".form-select-md example">
+                      <option value="0" selected disabled>---Select---</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6 text-danger">
+                  <label for="number" class="col-form ">Account No</label>
+                  <input type="text" required="" placeholder="" class="form-control">
+                </div>
+
+              </div>
+
+              <hr class="my-4">
+
+              <p class="text-success">PASSPORT DETAILS </p>
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Passport No</label>
+                  <input type="text" required="" placeholder="Enter Passport No" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Issue Place </label>
+                  <input type="text" placeholder="Enter Issue Place" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Issue Date</label>
+                  <div class="input-group date">
+                    <input type="text" class="form-control" id="datepicker2" placeholder="MM/DD/YYYY">
+                  </div>
+                </div>
+                <div class="col-md-6 ">
+                  <label for="">Expiry Date</label>
+
+                  <div class="input-group date">
+                    <input type="text" class="form-control" id="datepicker3" placeholder="MM/DD/YYYY">
+                  </div>
+                </div>
+              </div>
+
+
+              <hr class="my-4">
+
+              <p class="text-success">INTRODUCER DEATILS</p>
+
+
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Introducer Code</label>
+                  <input type="text" required="" placeholder="" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Introducer Name </label>
+                  <input type="text" placeholder="Enter Name" class="form-control">
+                </div>
+              </div>
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Introducer No</label>
+                  <input type="text" required="" placeholder="" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="">Introducer Email/Dealer Email </label>
+                  <input type="text" placeholder=" Enter email " class="form-control">
+                </div>
+              </div>
+
+
+
+              <!-- Joint acc -->
+ <section id="myDIV" class="d-none">
+
+<hr>
+<p class="text-success">JOINT APPLICANT</p>
+<div class="form-row row">
+  <div class="col-md-6 pl-5">
+    <span class=""> Title</span>
+  </div>
+  <div class="">
+    <select class="form-select form-select-sm p-1" aria-label=".form-select-sm example">
+      <option selected="selected" value="MR">Mr.</option>
+      <option value="MS">Ms.</option>
+      <option value="DR">Dr.</option>
+      <option value="EN">Engr.</option>
+      <option value="AD">Adv.</option>
+      <option value="CA">Capt.</option>
+    </select>
+  </div>
+</div>
+
+
+
+<div class="form-row row">
+  <div class="col-md-6 text-danger ">
+    <label for="">Account Holder</label>
+    <input type="text" required="" placeholder="Enter Account Holder Name" class="form-control">
+  </div>
+  <div class="col-md-6 ">
+   
+    <label for="" class=" w-100 ">Father's/Husband's Name</label>
+    <input type="text" placeholder="Enter Father's/Husband's Name" class="form-control">
+  </div>
+</div>
+
+<div class="form-row row">
+  <div class="col-md-6 ">
+    <label for="">Mother Name</label>
+    <input type="text" required="" placeholder="Enter Mother's Name" class="form-control">
+  </div>
+  <div class="col-md-6">
+    <label for="">Spouse</label>
+    <input type="text" placeholder="Enter Spouse's Name" class="form-control">
+  </div>
+</div>
+
+
+<div class="form-row row">
+  <div class="col-md-6 text-danger">
+    <label for="">Mobile Number</label>
+    <input type="text" required="" placeholder="Enter Mobile Number" class="form-control">
+  </div>
+  <div class="col-md-6">
+    <label for="">Phone Number </label>
+    <input type="text" placeholder="Enter Phone Number" class="form-control">
+  </div>
+</div>
+
+<div class="form-row row">
+  <div class="col-md-6">
+    <label for="">Fax</label>
+    <input type="text" required="" placeholder="Fax" class="form-control">
+  </div>
+  <div class="col-md-6">
+    <label for="">Email </label>
+    <input type="text" placeholder="Email123@gmail.com" class="form-control">
+  </div>
+</div>
+
+
+<div class="form-row row">
+  <div class="col-md-6">
+    <label for="">e-tin</label>
+    <input type="text" required="" placeholder="e-tin" class="form-control">
+  </div>
+  <div class="col-md-6">
+    <label for="">NID </label>
+    <input type="text" placeholder="3919693619111" class="form-control">
+  </div>
+</div>
+
+
+
+<div class="form-row row">
+  <div class="col-md-6">
+    <label for="">Birth Registration</label>
+    <input type="text" required="" placeholder="Birth Registration" class="form-control">
+  </div>
+  <div class="col-md-6">
+    <label for="">Occupation </label>
+    <div class="">
+      <select class="form-select form-select-lg w-100 px-2 py-2" aria-label=".form-select-lg example">
+        <option value="00">-Select-</option>
+        <option value="a">Service Holder</option>
+        <option value="1">Engineer</option>
+        <option value="2">Architecture</option>
+        <option value="3">Software Programmer</option>
+        <option value="4">Mechanical Engineer</option>
+        <option value="5">Others</option>
+        <option value="6">Housewife</option>
+        <option value="7">Business</option>
+        <option value="8">Teaching</option>
+        <option value="9">Doctor</option>
+        <option value="10">Nursing</option>
+        <option value="11">lawyer</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+
+<div class="form-row row ">
+  <div class="col-md-6">
+    <label for="">Date Of Birth </label>
+    <div class="input-group date">
+      <input type="text" class="form-control" id="datepicker5" placeholder="MM/DD/YYYY">
+    </div>
+
+  </div>
+  <div class="col-md-6 ">
+    <label for="">Gender </label>
+    <div class="">
+      <select class="form-select form-select-lg w-100 px-2 py-2 " aria-label=".form-select-lg example">
+        <option value="00">-Select-</option>
+        <option value="a">Male</option>
+        <option value="1">Female</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+
+<div class="form-row row">
+  <div class="col-md-6">
+    <label for="">Nationality</label>
+    <div class=" ">
+      <select class="form-select form-select-lg py-2 px-2 w-100 " aria-label=".form-select-sm example">
+
+        <option value="a">Bangladeshi</option>
+        <option value="1">Others</option>
+
+      </select>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="">Residency</label>
+    <div class=" ">
+      <select class="form-select form-select-lg py-2 px-2 w-100 " aria-label=".form-select-sm example">
+
+        <option value="a">Resident</option>
+        <option value="1">Non Resident</option>
+
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="container py-3">
+  <div class="row">
+    <div class="col-sm-4 mx-auto">
+      <div class="input-group mb-3">
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="inputGroupFile">
+          <label class="custom-file-label" for="inputGroupFile" aria-describedby="inputGroupFileAddon">
+          </label>
+        </div>
+        <div class="input-group-append">
+          <span class="input-group-text" id="inputGroupFileAddon">Upload</span>
+        </div>
+      </div>
+      <div class="border rounded-lg text-center p-3">
+        <img src="//placehold.it/140?text=IMAGE" class="img-fluid" id="preview" />
+        <h6>Joint Applicant Photo</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container py-3">
+  <div class="row">
+    <div class="col-sm-4 mx-auto">
+      <div class="input-group mb-3">
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="inputGroupFile">
+          <label class="custom-file-label" for="inputGroupFile"
+            aria-describedby="inputGroupFileAddon"></label>
+        </div>
+        <div class="input-group-append">
+          <span class="input-group-text" id="inputGroupFileAddon">Upload</span>
+        </div>
+      </div>
+      <div class="border rounded-lg text-center p-3">
+        <img src="//placehold.it/140?text=IMAGE" class="img-fluid" id="preview" />
+        <h6>
+          Joint Applicant Signature</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</section>
+
+<!-- joint -->
+
+              <hr class="my-4">
+
+              <p class="text-success">VALUE ADDED SERVICE</p>
+
+              <div class="">
+
+                <div>
+                  <input type="radio" id="vanilla" name="flavor" value="vanilla">
+                  <label for="vanilla">Internet Trading</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="chocolate" name="flavor" value="chocolate">
+                  <label for="chocolate">Email Service</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="strawberry" name="flavor" value="strawberry">
+                  <label for="strawberry">SMS Service</label>
+                </div>
+                <div>
+                  <input type="radio" id="vanilla" name="flavor" value="vanilla">
+                  <label for="vanilla">i-Broker Service</label>
+                </div>
+                <div>
+                  <input type="radio" id="vanilla" name="flavor" value="vanilla">
+                  <label for="vanilla"> Insurance <a href='images/InsuranceEnglish.jpg' style='color: #ff3e00;font-weight: bold;' target = '_blank'>(coverage info ...)</a></label>
+                
+                </div>
+
+              </div>
+
+
+              <hr class="my-4">
+
+              <p class="text-success">UPLOAD FIRST APPLICANT PHOTO SIGNATURE,NID</p>
+
+
+
+
+              <div class="container py-3">
+                <div class="row">
+                  <div class="col-sm-4 mx-auto">
+                    <div class="input-group mb-3">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile">
+                        <label class="custom-file-label" for="inputGroupFile" aria-describedby="inputGroupFileAddon">
+                        </label>
+                      </div>
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroupFileAddon ">Upload</span>
+                      </div>
+                    </div>
+                    <div class="border rounded-lg text-center p-3">
+                      <img src="//placehold.it/140?text=IMAGE" class="img-fluid" id="preview" />
+                      <h6>First Applicant Photo</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="container py-3">
+                <div class="row">
+                  <div class="col-sm-4 mx-auto">
+                    <div class="input-group mb-3">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile">
+                        <label class="custom-file-label" for="inputGroupFile"
+                          aria-describedby="inputGroupFileAddon"></label>
+                      </div>
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroupFileAddon">Upload</span>
+                      </div>
+                    </div>
+                    <div class="border rounded-lg text-center p-3">
+                      <img src="//placehold.it/140?text=IMAGE" class="img-fluid" id="preview" />
+                      <h6>First Applicant Signature</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <ul class="text-danger">
+                  <li>Photo height must not exceed 708px(7.37 inch) and width must not exceed 590px(6.13 inch), size
+                    should be less than 80KB</li>
+                  <li>Signature height must not exceed 80px(0.82 inch) and width must not exceed 300px(3.12 inch), size
+                    should be less than 50KB</li>
+                  <li>All file extension should be JPG</li>
+
+                </ul>
+              </div>
+
+              <hr class="my-4">
+
+              <p class="text-danger">AUTHORIZED PERSON INFORMATION (OPTIONAL)</p>
+
+
+
+              <div class="form-row row">
+                <div class="col-md-6 text-danger mt-4 pt-1">
+                  <label for="">Name of Authorized Person</label>
+                  <input type="text" required="" placeholder="Enter Name of Authorized Person" class="form-control">
+                </div>
+                <div class="col-md-6 ">
+                  <div class="custom-control custom-switch mx-3 ">
+                    <input type="checkbox" class="custom-control-input  " id="customSwitch3">
+                    <label class="custom-control-label" for="customSwitch3">Is Father</label>
+                  </div>
+                  <label for="" class="text-danger w-100 ">Father's/Husband's Name</label>
+                  <input type="text" placeholder="Enter Father's/Husband's Name" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-4">
+                  <label for="">Date of Birth</label>
+                  <div class="input-group date">
+                    <input type="text" class="form-control" id="datepicker4" placeholder="MM/DD/YYYY">
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <label for="">Sex</label>
+                  <div class=" ">
+                    <select class="form-select form-select-md py-2 w-100" aria-label=".form-select-md example">
+                      <option value="0">---Select---</option>
+                      <option value="2">Male</option>
+                      <option value="3">Female</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <label for="">Nationality</label>
+                  <div>
+                    <select class="form-select form-select-md py-2 w-100" aria-label=".form-select-md example">
+                      <option value="0">---Select---</option>
+                      <option value="2">Bangladeshi</option>
+                      <option value="3">Other</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Present Address</label>
+                  <textarea placeholder="Enter Present Address" rows="3" class="form-control"></textarea>
+                </div>
+                <div class="col-md-6">
+                  <label for="">Permanent Address</label>
+                  <textarea placeholder="Enter Permanent Address" rows="3" class="form-control"></textarea>
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Phone number</label>
+                  <input type="text" placeholder="Enter Phone number" class="form-control">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="">Telephone number</label>
+                  <input type="text" placeholder="Enter Telephone number" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Email</label>
+                  <input type="text" placeholder="Enter Email" class="form-control">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="">E-Tin</label>
+                  <input type="text" placeholder="Enter E-Tin" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6 mt-1 pt-3">
+                  <div>
+                    <label for="">Occupation</label>
+                    <select class="form-select form-select-md py-2 w-100" aria-label=".form-select-md example">
+                      <option value="00">-Select-</option>
+                      <option value="a">Service Holder</option>
+                      <option value="1">Engineer</option>
+                      <option value="2">Architecture</option>
+                      <option value="3">Software Programmer</option>
+                      <option value="4">Mechanical Engineer</option>
+                      <option value="5">Others</option>
+                      <option value="6">Housewife</option>
+                      <option value="7">Business</option>
+                      <option value="8">Teaching</option>
+                      <option value="9">Doctor</option>
+                      <option value="10">Nursing</option>
+                      <option value="11">Lawer</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="">Officer or Director of any Stock Exchange Listed Company ?</label>
+                  <input type="text" placeholder="YES/NO" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row row">
+                <div class="col-md-6">
+                  <label for="">Name of the Stock Exchange/Listed Company</label>
+                  <input type="text" placeholder="Enter Your Company Name" class="form-control">
+                </div>
+                <div class="col-md-6 mt-1 ">
+                  <div>
+                    <label for="">Authorization type:</label>
+                    <select class="form-select form-select-md py-2 w-100 mt-3 pt-1"
+                      aria-label=".form-select-md example">
+                      <option value="00">-Select-</option>
+                      <option value="a">BUY</option>
+                      <option value="1">SELL</option>
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="container py-3">
+                <div class="row">
+                  <div class="col-sm-4 mx-auto">
+                    <div class="input-group mb-3">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile">
+                        <label class="custom-file-label" for="inputGroupFile" aria-describedby="inputGroupFileAddon">
+                        </label>
+                      </div>
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroupFileAddon">Upload</span>
+                      </div>
+                    </div>
+                    <div class="border rounded-lg text-center p-3">
+                      <img src="//placehold.it/140?text=IMAGE" class="img-fluid" id="preview" />
+                      <h6> Photo</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="container py-3">
+                <div class="row">
+                  <div class="col-sm-4 mx-auto">
+                    <div class="input-group mb-3">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile">
+                        <label class="custom-file-label" for="inputGroupFile"
+                          aria-describedby="inputGroupFileAddon"></label>
+                      </div>
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroupFileAddon">Upload</span>
+                      </div>
+                    </div>
+                    <div class="border rounded-lg text-center p-3">
+                      <img src="//placehold.it/140?text=IMAGE" class="img-fluid" id="preview" />
+                      <h6> Signature</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <ul class="text-danger">
+                  <li>Photo height must not exceed 708px(7.37 inch) and width must not exceed 590px(6.13 inch), size
+                    should be less than 80KB</li>
+                  <li>Signature height must not exceed 80px(0.82 inch) and width must not exceed 300px(3.12 inch), size
+                    should be less than 50KB</li>
+                  <li>All file extension should be JPG</li>
+
+                </ul>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  I agree the terms & conditions
+                </label>
+              </div>
+              <div class="text-center p-4">
+                <button type="button" class="btn btn-success btn-lg w-50 align-center">Save as Draft</button>
+
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/fun.js">
+//     $('#datepicker').datepicker();
+//     $('#datepicker2').datepicker();
+//     $('#datepicker3').datepicker();
+//     $('#datepicker4').datepicker();
+//     $('#datepicker5').datepicker();
+//     // for photo
+//     $(document).ready(function () {
+
+//       // input plugin
+//       bsCustomFileInput.init();
+
+//       // get file and preview image
+//       $("#inputGroupFile").on('change', function () {
+//         var input = $(this)[0];
+//         if (input.files && input.files[0]) {
+//           var reader = new FileReader();
+//           reader.onload = function (e) {
+//             $('#preview').attr('src', e.target.result).fadeIn('slow');
+//           }
+//           reader.readAsDataURL(input.files[0]);
+//         }
+//       })
+
+//     });
+
+
+// let isVisible=false;
+//     function myFunction() {
+//   var x = document.getElementById("myDIV");
+ 
+//   if(isVisible){
+//     x.classList.toggle("d-none")
+//     isVisible=false;
+//   }
+//  else{
+//   x.classList.remove("d-none")
+//   isVisible=true;
+//  }
+// }
+
+
+  </script>
+
+</body>
+
+</html

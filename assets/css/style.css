@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Maven+Pro:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%, rgb(221, 145, 23) 0%, rgb(25, 105, 23) 90%);
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+.myColor{
+    background: rgb(66, 92, 54);
+    color: aliceblue;
+}
+.myColor img{
+    width: 80%;
+}
+
+.myShadow{
+    box-shadow: 0 5px 10px #111;
+}
+.myBtn{
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+.myBtn:hover{
+    background-color: rgb(221, 145, 23);
+}
+
+.myHr{
+    height: 2px;
+    border-radius: 100px;
+}
+
+.myLinkBtn{
+    border-radius: 100px;
+    width: 50%;
+    border: 2px solid #fff;
+}
+
+@media (max-width: 720px){
+    .wrapper{
+        margin: 2px;
+    }    
+}
